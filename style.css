@@ -1,0 +1,205 @@
+/*
+ Theme Name:   Energy Sparks Theme
+ Template:     the-bootstrap-blog
+ Version:      1.0.0
+ Text Domain:  energysparks
+*/
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 18px;
+  overflow-x: hidden;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 37.3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 31.1px;
+}
+
+h3 {
+  font-size: 25.9px;
+}
+
+h4 {
+  font-size: 21.6px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h2,
+h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h4,
+h5,
+h6 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.blog-masthead {
+  background: #232b49;
+  padding: 0px;
+}
+
+.nav-link.active:after {
+  content: none;
+}
+
+.nav-link {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff !important;
+  background: #232b49 !important;
+}
+
+a.navbar-brand {
+  color: white;
+  font-size: 18px;
+}
+
+a.navbar-brand img {
+  height: 45px;
+}
+
+.dropdown-menu {
+  background: #232b49 !important;
+  right: 0 !important;
+  left: auto !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 15px;
+}
+
+.dropdown-item:hover {
+  color: #222222 !important;
+}
+
+footer {
+  color: white;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222222;
+}
+
+footer p {
+  margin-right: 5px;
+}
+
+footer li {
+  font-size: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer li a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer li a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+footer li a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+header.blog-header {
+  /* background-image: linear-gradient(175deg, #fff 0%, rgba(196,204,212,0.6) 33%, rgba(211,217,223,0.7) 57%, #F6F8F9 85%); */
+  background-image: linear-gradient(to right, #97E6FC 0%, #CBF4FF 100%);
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+  padding-top: 0;
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav.navbar {
+  padding: 1px;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+}
+
+.navbar .navbar-toggler {
+  border-color: rgb(255,255,255);
+  margin: 6px;
+}
+
+.navbar .navbar-toggler-icon {
+  width: 1em;
+  height: 1.25em;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggle {
+  color: white !important;
+  font-size: 10px !important;
+  border-color: white !important;
+}
+
+/* override the override in the parent, otherwise collapse section doesnt work? */
+.no-js .collapse:not(.show) {
+    display: none;
+}
+
+.author-img img {
+  padding-top: 10px;
+}
+
+.author-bio {
+  background-color: #f8f9fa !important;
+  border: 1px solid rgba(0,0,0,0.125);
+}
+
+.container {
+  max-width: 1570px !important;
+}
+
+article h2 {
+  padding-top: 20px;
+}
